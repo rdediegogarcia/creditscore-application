@@ -18,7 +18,7 @@ build:
         name: Maven build for WebLogic deployment
         code: mvn clean package -Pweblogic
 
-deploy-to-weblogic:
+deploy2weblogic:
   box:
       id: spotify/alpine
       cmd: /bin/sh
